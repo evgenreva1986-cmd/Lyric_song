@@ -7,7 +7,7 @@ with open("lyrics.txt","r") as file:
     wrds = file.readlines()
 def display_lyrics(words, speed):
     pygame.mixer.init()
-    music_file = "C:\\Users\\User\\Music\\downlaoded_music\\Lil Peep & XXXTentacion - Falling Down.mp3"
+    music_file = "falling Down.mp3"
     pygame.mixer.music.load(music_file)
     pygame.mixer.music.play()
     for line in words:
